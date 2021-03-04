@@ -1,0 +1,10 @@
+#%RAML 1.0
+title: first-test-app-cicd
+version: v1
+/employeeDetails:
+  get:
+    responses:
+      200:
+        body:
+          application/json:
+            example: !include resources/response.json
